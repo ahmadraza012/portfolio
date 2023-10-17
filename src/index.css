@@ -81,8 +81,8 @@ ul , li {
 .fs-34 {
     font-size: 34px !important;
 }
-.fs-36 {
-    font-size: 36px !important;
+.fs-85 {
+    font-size: 85px !important;
 }
 /* font-weight */
 
@@ -117,45 +117,41 @@ ul , li {
 /* heading */
 
 .h-primary {
-    font-size: 80px;
-    font-weight: 400;
+    font-size: 85px;
+    font-weight: 800;
     color:#fff;
 }
 .h-secondary {
-    font-size: 57px;
-    font-weight: 500;
-    color: #1c1e21(148, 148, 138);
+    font-size: 30px;
+    font-weight: 600;
+    color:#fff;
 }
-
-/* paragraph */
-
-p {
-    font-size: 20px;
-    font-weight: 400;
-}
-
 /* text-color */
 
-.primary-text {
-    color:#25d366 !important;
+.white-text {
+    color:var(--textWhite) !important;
 }
-.dark-black-text {
-    color: #1c1e21 !important;
+.yellow-text {
+    color: var(--textYellow) !important;
+}.gray-text {
+    color: var(--textGray) !important;
 }
 /* button */
 .primary-btn {
-    width: 140px;
-    height: 30px;
-    display: flex;
+    min-width: 150px;
+    padding: 14px 0px;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 600;
     justify-content: center;
-    align-items: center;
-    background-color: rgb(114, 209, 42);
+    align-items: center;    
+    background-color: var(--textYellow);
     color: #fff;
-    border-radius: 8px;
+    border-radius: 24px;
     transition: all 0.5s ease-in-out;
 }
 .primary-btn:hover {
-    background-color: #106f1a;
+    background-color: var(--bgBody);
     color: #ffffff;
     transition: all 0.5s ease-in-out;
 }
@@ -170,4 +166,29 @@ p {
 }
 .navbar-brand {
     color: var(--textYellow) !important;
+}
+
+/* mains */
+.mains {
+    background-image: url('../public/assets/images/main-images.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+.mains::before {
+    content: '';
+    background-color: rgba(43, 42, 47, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
 }
