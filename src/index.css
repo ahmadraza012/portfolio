@@ -1,0 +1,173 @@
+.dark {
+    --bgBody:#202020;
+    --textWhite:#fff;
+    --textYellow:#ffd100;
+    --textGray:#ccc7c7;
+}
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: var(--bgBody) !important;
+    color: var(--textWhite) !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+/* links & buttons */
+a {
+    text-decoration: none !important;
+}
+button {
+    border: none !important;
+}
+a,button,input,textarea:focus-visible {
+    outline: none;
+}
+.form-control:focus{
+    border-color: none !important;
+    box-shadow: none !important;
+}
+.btn:focus {
+    box-shadow: none !important;
+}
+ul , li {
+    list-style: none;
+    padding: 0 !important;
+}
+.pointer {
+    cursor: pointer;
+}
+
+/* font-size */
+
+.fs-12 {
+    font-size: 12px !important;
+}
+.fs-14 {
+    font-size: 14px !important;
+}
+.fs-16 {
+    font-size: 16px !important;
+}
+.fs-18 {
+    font-size: 18px !important;
+}
+.fs-20 {
+    font-size: 20px !important;
+}
+.fs-22 {
+    font-size: 22px !important;
+}
+.fs-24 {
+    font-size: 24px !important;
+}
+.fs-26 {
+    font-size: 26px !important;
+}
+.fs-28 {
+    font-size: 28px !important;
+}
+.fs-30 {
+    font-size: 30px !important;
+}
+.fs-32 {
+    font-size: 32px !important;
+}
+.fs-34 {
+    font-size: 34px !important;
+}
+.fs-36 {
+    font-size: 36px !important;
+}
+/* font-weight */
+
+.fw-100 {
+    font-weight: 100 !important;
+}
+.fw-200 {
+    font-weight: 200 !important;
+}
+.fw-300 {
+    font-weight: 300 !important;
+}
+.fw-400 {
+    font-weight: 400 !important;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+.fw-700 {
+    font-weight: 700 !important;
+}
+.fw-800 {
+    font-weight: 800 !important;
+}
+.fw-900 {
+    font-weight: 900 !important;
+}
+
+/* heading */
+
+.h-primary {
+    font-size: 80px;
+    font-weight: 400;
+    color:#fff;
+}
+.h-secondary {
+    font-size: 57px;
+    font-weight: 500;
+    color: #1c1e21(148, 148, 138);
+}
+
+/* paragraph */
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* text-color */
+
+.primary-text {
+    color:#25d366 !important;
+}
+.dark-black-text {
+    color: #1c1e21 !important;
+}
+/* button */
+.primary-btn {
+    width: 140px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 209, 42);
+    color: #fff;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.primary-btn:hover {
+    background-color: #106f1a;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+/* nav-bar */
+.navbar .nav-link {
+    padding: 0px !important;
+    color: var(--textWhite) !important;
+    font-weight: 600;
+}
+.navbar .nav-link.active {
+    color: var(--textYellow) !important;
+}
+.navbar-brand {
+    color: var(--textYellow) !important;
+}
