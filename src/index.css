@@ -3,6 +3,7 @@
     --textWhite:#fff;
     --textYellow:#ffd100;
     --textGray:#ccc7c7;
+    --light-gray:#6d6b6f;
 }
 html {
     margin: 0;
@@ -173,7 +174,7 @@ ul , li {
     background-image: url('../public/assets/images/main-images.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -190,5 +191,74 @@ ul , li {
     width: 100%;
     height: 100%;
     z-index: -1;
-    
+}
+/* about */
+.about-images {
+    height: auto;
+    padding: 7px;
+    background: linear-gradient(-50deg, rgba(170, 170, 170, .1) 45%, transparent 25%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+.about-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .7;
+    transition: all 0.5s ease-in-out;
+}
+.about-images img:hover {
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.about-titles {
+    position: relative;
+    display: inline-block;
+}
+.about-titles h2::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--light-gray);
+}
+.about-titles .about-spans {
+    position: absolute;
+    bottom: -9px;
+    left: 67%;
+    line-height: 1;
+    background: var(--bgBody);
+    padding: 0 4px;
+    font-size: 20px;
+    color: #16c0f0;
+    font-weight: 600;
+    letter-spacing: .3px;
+}
+.about-h3 {
+    margin-top: 50px;
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+}
+.about-h3::before {
+    content: '';
+    position: absolute;
+    bottom:-10px;
+    left: 0px;
+    height: 2px;
+    width: 91px;
+    background: linear-gradient(135deg, #ffd100 0%, #f6c606 100%);
+}
+.contact-circle {
+    color: #000000 !important;
+    background: linear-gradient(135deg, #ffd100 0%, #f6c606 100%);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
 }

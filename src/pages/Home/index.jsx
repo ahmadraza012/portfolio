@@ -16,6 +16,38 @@ const Home = () => {
             </div>
           </div>
       </section>
+      {/* about-me */}
+      <section className="about-me">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-5">
+              <div className="about-images">
+                <img src="/public/assets/images/about.jpg" alt="about" />
+              </div>
+            </div>
+            <div className="col-md-7">
+              <div className="about-titles">
+              <h2 className="h-secondary">ABOUT ME</h2>
+              <span className="about-spans yellow-text">01.</span>
+              </div>
+              <div className="about-h3">
+              Hello! I am John Smith
+              </div>
+              <p className='gray-text fs-14 mt-5'>
+              I'm a Freelance Web Designer & Developer based in New York, USA, and I'm very passionate and dedicated to my work .With 7 years experience as a professional Web Designer & Developer, I have acquired the skills necessary to build great and premium websites.
+              </p>
+              <div className="personal-info">
+                <div className="d-flex align-items-center gap-2">
+                  <div className="contact-circle">
+                  <span className="iconify" data-icon="fluent-mdl2:contact"></span>
+                  </div>
+                  <p className='mb-0'>Jhon Smith</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
