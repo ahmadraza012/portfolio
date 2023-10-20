@@ -338,13 +338,13 @@ const Home = () => {
               className="mb-3"
               fill>
               <Tab eventKey="home" title="All">
-                 <div className="row">
+                <div className="row">
                   <div className="col-md-4">
                     <div className="port-images">
-                       <img src="/public/assets/images/port-1.jpg" alt="port" />
+                      <img src="/public/assets/images/port-1.jpg" alt="port" />
                       <div className="port-image-inner">
                         <div className="port-circle">
-                        <span className="iconify" data-icon="icons8:plus"></span>
+                          <span className="iconify" data-icon="icons8:plus"></span>
                         </div>
                         <div className="text-white">Project Title</div>
                         <div className="yellow-text">Web Design</div>
@@ -353,10 +353,10 @@ const Home = () => {
                   </div>
                   <div className="col-md-4">
                     <div className="port-images">
-                       <img src="/public/assets/images/port-2.jpg" alt="port" />
+                      <img src="/public/assets/images/port-2.jpg" alt="port" />
                       <div className="port-image-inner">
                         <div className="port-circle">
-                        <span className="iconify" data-icon="icons8:plus"></span>
+                          <span className="iconify" data-icon="icons8:plus"></span>
                         </div>
                         <div className="text-white">Project Title</div>
                         <div className="yellow-text">Web Design</div>
@@ -365,36 +365,24 @@ const Home = () => {
                   </div>
                   <div className="col-md-4">
                     <div className="port-images">
-                       <img src="/public/assets/images/port-3.jpg" alt="port" />
+                      <img src="/public/assets/images/port-3.jpg" alt="port" />
                       <div className="port-image-inner">
                         <div className="port-circle">
-                        <span className="iconify" data-icon="icons8:plus"></span>
+                          <span className="iconify" data-icon="icons8:plus"></span>
                         </div>
                         <div className="text-white">Project Title</div>
                         <div className="yellow-text">Web Design</div>
                       </div>
                     </div>
                   </div>
-                 </div>
-                 <div className="row mt-4">
+                </div>
+                <div className="row mt-4">
                   <div className="col-md-4">
                     <div className="port-images">
-                       <img src="/public/assets/images/port-1.jpg" alt="port" />
+                      <img src="/public/assets/images/port-1.jpg" alt="port" />
                       <div className="port-image-inner">
                         <div className="port-circle">
-                        <span className="iconify" data-icon="icons8:plus"></span>
-                        </div>
-                        <div className="text-white">Project Title</div>
-                        <div className="yellow-text">Web Design</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div className="port-images">
-                       <img src="/public/assets/images/port-2.jpg" alt="port" />
-                      <div className="port-image-inner">
-                        <div className="port-circle">
-                        <span className="iconify" data-icon="icons8:plus"></span>
+                          <span className="iconify" data-icon="icons8:plus"></span>
                         </div>
                         <div className="text-white">Project Title</div>
                         <div className="yellow-text">Web Design</div>
@@ -403,30 +391,327 @@ const Home = () => {
                   </div>
                   <div className="col-md-4">
                     <div className="port-images">
-                       <img src="/public/assets/images/port-3.jpg" alt="port" />
+                      <img src="/public/assets/images/port-2.jpg" alt="port" />
                       <div className="port-image-inner">
                         <div className="port-circle">
-                        <span className="iconify" data-icon="icons8:plus"></span>
+                          <span className="iconify" data-icon="icons8:plus"></span>
                         </div>
                         <div className="text-white">Project Title</div>
                         <div className="yellow-text">Web Design</div>
                       </div>
                     </div>
                   </div>
-                 </div>
-                
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-3.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </Tab>
               <Tab eventKey="profile" title="Web Design">
-                Tab content for Profile
+                <div className="row">
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-1.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-2.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-3.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row mt-4">
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-1.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-2.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-3.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </Tab>
               <Tab eventKey="longer-tab" title="Graphic Design">
-                Tab content for Loooonger Tab
+                <div className="row">
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-1.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-2.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-3.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row mt-4">
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-1.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-2.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-3.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </Tab>
               <Tab eventKey="contact" title="Branding">
-                Tab content for Contact
+                <div className="row">
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-1.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-2.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-3.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row mt-4">
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-1.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-2.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="port-images">
+                      <img src="/public/assets/images/port-3.jpg" alt="port" />
+                      <div className="port-image-inner">
+                        <div className="port-circle">
+                          <span className="iconify" data-icon="icons8:plus"></span>
+                        </div>
+                        <div className="text-white">Project Title</div>
+                        <div className="yellow-text">Web Design</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </Tab>
             </Tabs>
           </div>
+        </div>
+      </section>
+
+      {/* coffe */}
+      <section className="coffe">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3">
+              <div className="coffe-card">
+                <div className="coffe-head">
+                  <div className="coffe-circle">
+                    <span className="iconify" data-icon="ph:code"></span>
+                  </div>
+                  <div className="fs-14 fw-600 text-white">Projects Done</div>
+                </div>
+                <div className="fs-30 fw-700 text-white mt-3">554</div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="coffe-card">
+                <div className="coffe-head">
+                  <div className="coffe-circle">
+                    <span className="iconify" data-icon="ph:code"></span>
+                  </div>
+                  <div className="fs-14 fw-600 text-white">Projects Done</div>
+                </div>
+                <div className="fs-30 fw-700 text-white mt-3">554</div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="coffe-card">
+                <div className="coffe-head">
+                  <div className="coffe-circle">
+                    <span className="iconify" data-icon="ph:code"></span>
+                  </div>
+                  <div className="fs-14 fw-600 text-white">Projects Done</div>
+                </div>
+                <div className="fs-30 fw-700 text-white mt-3">554</div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="coffe-card">
+                <div className="coffe-head">
+                  <div className="coffe-circle">
+                    <span className="iconify" data-icon="ph:code"></span>
+                  </div>
+                  <div className="fs-14 fw-600 text-white">Projects Done</div>
+                </div>
+                <div className="fs-30 fw-700 text-white mt-3">554</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* BLog */}
+      <section className="blog">
+        <div className="container">
+          
         </div>
       </section>
 
