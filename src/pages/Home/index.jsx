@@ -1,6 +1,7 @@
 import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
+import CountUp from "react-countup";
 
 const Home = () => {
 	const ports = [
@@ -14,9 +15,9 @@ const Home = () => {
 
 	const cofeCard = [
 		{ cofeeTitle: "Project Done", cofeeNumber: "554" },
-		{ cofeeTitle: "Happy Clients", cofeeNumber: "554" },
-		{ cofeeTitle: "Hours Of Work", cofeeNumber: "554" },
-		{ cofeeTitle: "Cofee Cups", cofeeNumber: "554" },
+		{ cofeeTitle: "Happy Clients", cofeeNumber: "700" },
+		{ cofeeTitle: "Hours Of Work", cofeeNumber: "323" },
+		{ cofeeTitle: "Cofee Cups", cofeeNumber: "121" },
 	];
 
 	return (
@@ -48,7 +49,7 @@ const Home = () => {
 								<img src="/assets/images/about.jpg" alt="about" />
 							</div>
 						</div>
-						<div className="col-md-7">
+						<div className="col-md-7 mt-4 mt-md-0">
 							<div className="about-titles">
 								<h2 className="h-secondary">ABOUT ME</h2>
 								<span className="about-spans yellow-text">01.</span>
@@ -265,7 +266,7 @@ const Home = () => {
 								My Portfolio
 							</button>
 						</div>
-						<div className="col-md-7">
+						<div className="col-md-7 mt-5 mt-md-0">
 							<div className="skills-tab">
 								<Tabs defaultActiveKey="home" id="uncontrolled-tab-example" className="mb-3">
 									<Tab eventKey="home" title="Professional Skills">
@@ -456,7 +457,9 @@ const Home = () => {
 												</div>
 												<div className="fs-14 fw-600 text-white">{items.cofeeTitle}</div>
 											</div>
-											<div className="fs-30 fw-700 text-white mt-3">{items.cofeeNumber}</div>
+											<div className="fs-30 fw-700 text-white mt-3">
+												<CountUp duration={10} end={items.cofeeNumber} />
+											</div>
 										</div>
 									</div>
 								</>
