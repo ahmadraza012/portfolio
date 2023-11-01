@@ -521,7 +521,7 @@ const Home = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-md-8">
+						<div className="col-md-8 mt-5 mt-md-0">
 							<div className="contact-right">
 								<div className="input-handles">
 									<input type="text" placeholder="Name" />

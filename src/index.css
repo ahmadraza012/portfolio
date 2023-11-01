@@ -500,6 +500,14 @@ li {
 	text-align: center;
 	border: none;
 	border-radius: 24px;
+	transition: all 0.5s ease-in-out;
+}
+.skills-btn:hover {
+	background-color: var(--bgBody);
+	color: #ffffff;
+	transition: all 0.5s ease-in-out;
+}
+.skills-btn:hover {
 }
 .skills-tab .nav {
 	display: flex;
@@ -826,6 +834,12 @@ li {
 	border: none;
 	border-radius: 24px;
 	outline: none;
+	transition: all 0.5s ease-in-out;
+}
+.meassage-btn:hover {
+	background-color: var(--bgBody);
+	color: #ffffff;
+	transition: all 0.5s ease-in-out;
 }
 /* footer */
 .footer-inner {
