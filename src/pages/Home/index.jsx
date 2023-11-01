@@ -543,40 +543,7 @@ const Home = () => {
 				</div>
 			</section>
 
-			{/* footer */}
-			<section className="footer">
-				<div className="container">
-					<div className="row justify-content-center">
-						<div className="col-md-6">
-							<div className="footer-inner">
-								<div className="fs-30 fw-700 text-white">
-									<span className="yellow-text">A</span>HMAD
-								</div>
-								<div className="d-flex align-items-center gap-3 mt-2">
-									<a href="#" className="footer-links">
-										<span className="iconify" data-icon="ri:facebook-fill"></span>
-									</a>
-									<a href="#" className="footer-links">
-										<span className="iconify" data-icon="uil:twitter"></span>
-									</a>
-									<a href="#" className="footer-links">
-										<span className="iconify" data-icon="ri:linkedin-fill"></span>
-									</a>
-									<a href="#" className="footer-links">
-										<span className="iconify" data-icon="ri:facebook-fill"></span>
-									</a>
-								</div>
-								<div className="text-white fw-600 mt-2">
-									All Right Reserved © 2023{" "}
-									<a href="#" target="_black" className="yellow-text">
-										HasnaaDesign
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+		
 		</div>
 	);
 };
