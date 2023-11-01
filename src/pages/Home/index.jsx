@@ -29,9 +29,8 @@ const Home = () => {
 						<div className="col-md-6">
 							<div className="fs-22 fw-600 gray-text"> Hey, My Name Is</div>
 							<h1 className="h-primary my-3">John Smith</h1>
-							<div className="fs-22 fw-600 gray-text">
-								{" "}
-								A Freelance Web <span className="yellow-text">Designer</span>
+							<div className="fs-22 fw-600 gray-text" aria-label="A Freelance Web developer">
+								A Freelance Web &nbsp;<span className="yellow-text typewriter nocaret"></span>
 							</div>
 							<button type="button" className="primary-btn mt-4">
 								Hire ME
