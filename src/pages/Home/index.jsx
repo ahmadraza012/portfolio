@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import CountUp from "react-countup";
@@ -6,6 +6,8 @@ import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
 	const [visibleCards, setVisibleCards] = useState(9);
@@ -201,6 +203,12 @@ const Home = () => {
 		{ cofeeTitle: "Happy Clients", cofeeNumber: "30" },
 		{ cofeeTitle: "Hours Of Work", cofeeNumber: "18" },
 	];
+	useEffect(() => {
+		AOS.init({
+			// Add your AOS configuration here if needed
+			duration: 1000,
+		});
+	}, []);
 
 	return (
 		<div>
@@ -208,7 +216,7 @@ const Home = () => {
 			<section className="mains" onMouseEnter={() => navigate("#")} id="home">
 				<div className="container">
 					<div className="row">
-						<div className="col-md-8">
+						<div className="col-md-8 " data-aos="fade-up">
 							<div className="fs-22 fw-600 gray-text"> Hey, My Name Is</div>
 							<h1 className="h-primary my-3">Ahmad Raza</h1>
 							<div className="fs-22 fw-600 gray-text" aria-label="A Freelance Web developer">
@@ -226,17 +234,19 @@ const Home = () => {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-5">
-							<div className="about-images">
+							<div className="about-images" data-aos="fade-up" data-aos-duration="1500">
 								<img src="/assets/images/bg.jpg" alt="about" />
 							</div>
 						</div>
 						<div className="col-md-7 mt-4 mt-md-0">
-							<div className="about-titles">
+							<div className="about-titles" data-aos="fade-up" data-aos-duration="2000">
 								<h2 className="h-secondary">ABOUT ME</h2>
 								<span className="about-spans yellow-text">01.</span>
 							</div>
-							<div className="about-h3">Hello! I am Ahmad Raza</div>
-							<p className="gray-text fs-14 mt-5 mb-4">
+							<div className="about-h3" data-aos="fade-up" data-aos-duration="2500">
+								Hello! I am Ahmad Raza
+							</div>
+							<p className="gray-text fs-14 mt-5 mb-4" data-aos="fade-up" data-aos-duration="3000">
 								As a full-stack developer with expertise in React, Angular, Node. I have a deep understanding of web
 								development and a passion for creating engaging and interactive user experiences. With years of
 								experience in the field, I've honed my skills in both front-end and back-end development, allowing me to
@@ -248,7 +258,7 @@ const Home = () => {
 								expertise in Node, I can develop robust back-end systems that integrate seamlessly with the front-end,
 								providing a complete end-to-end solution.
 							</p>
-							<div className="personal-info">
+							<div className="personal-info" data-aos="fade-up" data-aos-duration="3500">
 								<div className="d-flex align-items-center gap-3">
 									<div className="contact-circle">
 										<span className="iconify" data-icon="fluent-mdl2:contact"></span>
@@ -301,7 +311,9 @@ const Home = () => {
 							<a
 								href="/assets/images/cv.pdf"
 								target="_blank"
-								className="personal-btn d-inline-flex align-items-center justify-content-center">
+								className="personal-btn d-inline-flex align-items-center justify-content-center"
+								data-aos="fade-up"
+								data-aos-duration="4000">
 								Download CV
 							</a>
 						</div>
@@ -311,12 +323,12 @@ const Home = () => {
 			{/* services */}
 			<section className="services" onMouseEnter={() => navigate("#services")} id="services">
 				<div className="container">
-					<div className="about-titles">
+					<div className="about-titles" data-aos="fade-up">
 						<h2 className="h-secondary">MY SERVICES</h2>
 						<span className="about-spans yellow-text services-counts">02.</span>
 					</div>
 					<div className="row">
-						<div className="col-md-3 mt-5">
+						<div className="col-md-3 mt-5" data-aos="fade-up" data-aos-duration="2000">
 							<div className="service-card">
 								<div className="design-circle">
 									<span className="iconify" data-icon="bi:pen"></span>
@@ -329,7 +341,7 @@ const Home = () => {
 								<div className="service-num">01.</div>
 							</div>
 						</div>
-						<div className="col-md-3 mt-5">
+						<div className="col-md-3 mt-5" data-aos="fade-up" data-aos-duration="2000">
 							<div className="service-card">
 								<div className="design-circle">
 									<span className="iconify" data-icon="solar:flag-linear"></span>
@@ -342,7 +354,7 @@ const Home = () => {
 								<div className="service-num">02.</div>
 							</div>
 						</div>
-						<div className="col-md-3 mt-5">
+						<div className="col-md-3 mt-5" data-aos="fade-up" data-aos-duration="2000">
 							<div className="service-card">
 								<div className="design-circle">
 									<span className="iconify" data-icon="mdi:code"></span>
@@ -356,7 +368,7 @@ const Home = () => {
 								<div className="service-num">03.</div>
 							</div>
 						</div>
-						<div className="col-md-3 mt-5">
+						<div className="col-md-3 mt-5" data-aos="fade-up" data-aos-duration="2000">
 							<div className="service-card">
 								<div className="design-circle">
 									<span className="iconify" data-icon="icon-park-outline:dribble"></span>
@@ -376,11 +388,11 @@ const Home = () => {
 			{/* resume */}
 			<section className="resumes" onMouseEnter={() => navigate("#resume")} id="resume">
 				<div className="container">
-					<div className="about-titles">
+					<div className="about-titles" data-aos="fade-up">
 						<h2 className="h-secondary">MY RESUME</h2>
 						<span className="about-spans yellow-text">03.</span>
 					</div>
-					<div className="row mt-5">
+					<div className="row mt-5" data-aos="fade-up" data-aos-duration="2000">
 						<div className="col-md-6">
 							<div className="resume-mains">
 								<div className="resume-inner">
@@ -476,34 +488,36 @@ const Home = () => {
 			{/* Skills */}
 			<section className="skills" onMouseEnter={() => navigate("#skills")} id="skills">
 				<div className="container">
-					<div className="about-titles">
+					<div className="about-titles" data-aos="fade-up">
 						<h2 className="h-secondary">MY SKILLS</h2>
 						<span className="about-spans yellow-text services-counts">04.</span>
 					</div>
 					<div className="row mt-5">
 						<div className="col-md-5">
-							<h4 className="fs-20 fw-600">Some About my Abilities</h4>
-							<p className="gray-text fs-14 mt-3">
+							<h4 className="fs-20 fw-600" data-aos="fade-up" data-aos-duration="2000">
+								Some About my Abilities
+							</h4>
+							<p className="gray-text fs-14 mt-3" data-aos="fade-up" data-aos-duration="2500">
 								In the dynamic realm of web development, my proficiency extends across a spectrum of technologies,
 								enabling me to bring digital visions to life. Here's a glimpse into my skill set:
 							</p>
-							<p className="gray-text fs-14 mt-3">
+							<p className="gray-text fs-14 mt-3" data-aos="fade-up" data-aos-duration="3000">
 								I wield the power of React.js to create seamless, interactive, and user-friendly interfaces. Harnessing
 								the latest features and best practices, I design and implement components that not only meet but exceed
 								user expectations
 							</p>
-							<p className="gray-text fs-14 mt-3">
+							<p className="gray-text fs-14 mt-3" data-aos="fade-up" data-aos-duration="3500">
 								The trio of HTML, CSS, and JavaScript serves as the foundation of my web development expertise. I sculpt
 								the structure with HTML, paint the aesthetics with CSS, and breathe life into the elements with
 								JavaScript. Crafting visually stunning and functionally robust websites is my forte.
 							</p>
 
-							<button type="buttton" className="skills-btn mt-4">
+							<button type="buttton" className="skills-btn mt-4" data-aos="fade-up" data-aos-duration="4000">
 								My Portfolio
 							</button>
 						</div>
 						<div className="col-md-7 mt-5 mt-md-0">
-							<div className="skills-tab">
+							<div className="skills-tab" data-aos="fade-up">
 								<Tabs defaultActiveKey="home" id="uncontrolled-tab-example" className="mb-3">
 									<Tab eventKey="home" title="Professional Skills">
 										<div className="content-main">
@@ -579,7 +593,7 @@ const Home = () => {
 			{/* PORTFOLIO */}
 			<section className="port" onMouseEnter={() => navigate("#portfolio")} id="portfolio">
 				<div className="container" ref={sectionRef}>
-					<div className="about-titles">
+					<div className="about-titles" data-aos="fade-up">
 						<h2 className="h-secondary">MY PORTFOLIO</h2>
 						<span className="about-spans yellow-text">05.</span>
 					</div>
@@ -588,7 +602,7 @@ const Home = () => {
 							{allProjects.slice(0, visibleCards).map((item, index) => {
 								return (
 									<>
-										<div className="col-md-4 mb-4" key={index}>
+										<div className="col-md-4 mb-4" key={index} data-aos="fade-up" data-aos-duration="2000">
 											<a href={item.link} target="_blank">
 												<div className="port-card">
 													<div className="port-img">
@@ -634,7 +648,7 @@ const Home = () => {
 						{cofeCard.map((items, index) => {
 							return (
 								<>
-									<div className="col-md-4">
+									<div className="col-md-4" data-aos="fade-up">
 										<div className="coffe-card">
 											<div className="coffe-head">
 												<div className="coffe-circle">
@@ -658,13 +672,13 @@ const Home = () => {
 
 			<section className="contact-me" id="contact" onMouseEnter={() => navigate("#contact")}>
 				<div className="container">
-					<div className="about-titles">
+					<div className="about-titles" data-aos="fade-up">
 						<h2 className="h-secondary">CONTACT ME</h2>
 						<span className="about-spans yellow-text services-counts">08.</span>
 					</div>
 					<div className="row mt-5">
 						<div className="col-md-4">
-							<div className="contact-left">
+							<div className="contact-left" data-aos="fade-up" data-aos-duration="2000">
 								<div className="mt-3">
 									<div className="contact-head">
 										<div className="contact-icon">
@@ -706,7 +720,7 @@ const Home = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-md-8 mt-5 mt-md-0">
+						<div className="col-md-8 mt-5 mt-md-0" data-aos="fade-up" data-aos-duration="2000">
 							<form onSubmit={handleSubmit}>
 								<div className="contact-right">
 									<div className="input-handles">
