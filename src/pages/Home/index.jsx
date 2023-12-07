@@ -298,9 +298,12 @@ const Home = () => {
 									</a>
 								</span>
 							</div>
-							<button type="button" className="personal-btn">
+							<a
+								href="/assets/images/cv.pdf"
+								target="_blank"
+								className="personal-btn d-inline-flex align-items-center justify-content-center">
 								Download CV
-							</button>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -699,7 +702,7 @@ const Home = () => {
 										</div>
 										<div className="text-white">Website</div>
 									</div>
-									<div className="text-center fw-600 gray-text mt-3">www.yourdomain.com</div>
+									<div className="text-center fw-600 gray-text mt-3">https://de-ahmad.netlify.app/</div>
 								</div>
 							</div>
 						</div>

@@ -397,6 +397,7 @@ li {
 	background-color: var(--bgBody);
 	border: 1px solid var(--textYellow) !important;
 	transition: all 0.5s ease-in-out;
+	color: #fff !important;
 }
 
 /* service */
