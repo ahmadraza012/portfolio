@@ -29,7 +29,6 @@ const Home = () => {
 		// sectionRef.current.scrollTop = sectionRef.current.scrollHeight;
 		// console.log(sectionRef.current.scrollHeight);
 	};
-	console.log(values);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -47,6 +46,7 @@ const Home = () => {
 			},
 			(error) => {
 				console.log("FAILED", error);
+				toast.update(id, { render: "Your message don't sent", autoClose: true, type: "error", isLoading: false });
 			}
 		);
 	};

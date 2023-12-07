@@ -13,17 +13,27 @@ const Footer = () => {
 									<span className="yellow-text">A</span>HMAD
 								</div>
 								<div className="d-flex align-items-center gap-3 mt-2">
-									<a href="#" className="footer-links">
-										<span className="iconify" data-icon="ri:facebook-fill"></span>
+									<a target="_blank" href="https://www.linkedin.com/in/ahmad-raza-02374b249/" className="footer-links">
+										<span className="iconify" data-icon="basil:linkedin-outline"></span>
 									</a>
-									<a href="#" className="footer-links">
-										<span className="iconify" data-icon="uil:twitter"></span>
+									<a target="_blank" href="https://github.com/ahmadraza012" className="footer-links">
+										<span class="iconify" data-icon="uiw:github"></span>
 									</a>
-									<a href="#" className="footer-links">
-										<span className="iconify" data-icon="ri:linkedin-fill"></span>
+									<a
+										target="_blank"
+										href="https://api.whatsapp.com/send?phone=923150709041&amp;text=How  may I help you?"
+										className="footer-links">
+										<span class="iconify" data-icon="ic:outline-whatsapp"></span>
 									</a>
-									<a href="#" className="footer-links">
-										<span className="iconify" data-icon="ri:facebook-fill"></span>
+									<a
+										target="_blank"
+										href="https://www.facebook.com/profile.php?id=100009971705175"
+										className="footer-links">
+										<span className="iconify" data-icon="iconoir:facebook"></span>
+									</a>
+
+									<a href="https://www.instagram.com/sheikhgee188/" target="_blank" className="footer-links">
+										<span class="iconify" data-icon="mdi:instagram"></span>
 									</a>
 								</div>
 								<div className="text-white fs-16 fw-600 mt-2">
