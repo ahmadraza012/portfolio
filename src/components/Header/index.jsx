@@ -5,6 +5,7 @@ import "animate.css/animate.min.css";
 import { Link, useLocation } from "react-router-dom";
 const Header = () => {
 	const [isScrolled, setIsScrolled] = useState(false);
+	const [active, setActive] = useState(false);
 	const [navActive, setNavActive] = useState("home");
 	const location = useLocation();
 
@@ -69,12 +70,16 @@ const Header = () => {
 						<span className="yellow-text">A</span>hmad
 					</Navbar.Brand>
 					<a
-						href="javascript:void(0)"
-						className="text-gray-900 fs-20 d-md-none d-block"
 						onClick={() => {
 							homeNav();
-						}}>
-						<span className="iconify" data-icon="humbleicons:bars"></span>
+							setActive(!active);
+						}}
+						className="toggle-icon index-30 hamburger-menu">
+						<div id="nav-icon1" className={!active ? "" : "open"}>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
 					</a>
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="ms-auto gap-4">
@@ -85,18 +90,13 @@ const Header = () => {
 									className={navActive == "home" ? "active" : ""}
 									onClick={() => {
 										handleClickScroll("home");
+										homeNav();
+
 										setNavActive("home");
+										setActive(!active);
 									}}>
 									Home
 								</Nav.Link>
-								<a
-									href="javascript:void(0)"
-									className="text-gray-900 fs-20 d-md-none d-block"
-									onClick={() => {
-										homeNav();
-									}}>
-									<span className="iconify" data-icon="humbleicons:bars"></span>
-								</a>
 							</div>
 							<Nav.Link
 								as={Link}
@@ -104,7 +104,10 @@ const Header = () => {
 								className={navActive == "about" ? "active" : ""}
 								onClick={() => {
 									handleClickScroll("about-me");
+									homeNav();
+
 									setNavActive("about");
+									setActive(!active);
 								}}>
 								About
 							</Nav.Link>
@@ -114,7 +117,10 @@ const Header = () => {
 								className={navActive == "services" ? "active" : ""}
 								onClick={() => {
 									handleClickScroll("services");
+									homeNav();
+
 									setNavActive("services");
+									setActive(!active);
 								}}>
 								Services
 							</Nav.Link>
@@ -124,7 +130,10 @@ const Header = () => {
 								className={navActive == "resume" ? "active" : ""}
 								onClick={() => {
 									handleClickScroll("resume");
+									homeNav();
+
 									setNavActive("resume");
+									setActive(!active);
 								}}>
 								Resume
 							</Nav.Link>
@@ -134,7 +143,10 @@ const Header = () => {
 								className={navActive == "skills" ? "active" : ""}
 								onClick={() => {
 									handleClickScroll("skills");
+									homeNav();
+
 									setNavActive("skills");
+									setActive(!active);
 								}}>
 								Skills
 							</Nav.Link>
@@ -144,7 +156,10 @@ const Header = () => {
 								className={navActive == "portfolio" ? "active" : ""}
 								onClick={() => {
 									handleClickScroll("portfolio");
+									homeNav();
+
 									setNavActive("portfolio");
+									setActive(!active);
 								}}>
 								Portfolio
 							</Nav.Link>
@@ -154,7 +169,10 @@ const Header = () => {
 								className={navActive == "contact" ? "active" : ""}
 								onClick={() => {
 									handleClickScroll("contact");
+									homeNav();
+
 									setNavActive("contact");
+									setActive(!active);
 								}}>
 								Contact
 							</Nav.Link>
