@@ -26,10 +26,10 @@ const Footer = () => {
 										<span className="iconify" data-icon="ri:facebook-fill"></span>
 									</a>
 								</div>
-								<div className="text-white fw-600 mt-2">
+								<div className="text-white fs-16 fw-600 mt-2">
 									All Right Reserved © 2023{" "}
 									<a href="#" target="_black" className="yellow-text">
-										Design By Shiraz Malik
+										Design By Ahmad Raza
 									</a>
 								</div>
 							</div>
