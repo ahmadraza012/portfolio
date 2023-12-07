@@ -274,6 +274,18 @@ const Home = () => {
 									<p className="mb-0">Lahore, Pakistan</p>
 								</div>
 								<span className="media-links">
+									<a target="_blank" href="https://www.linkedin.com/in/ahmad-raza-02374b249/" className="fb-links">
+										<span className="iconify" data-icon="basil:linkedin-outline"></span>
+									</a>
+									<a target="_blank" href="https://github.com/ahmadraza012" className="fb-links">
+										<span class="iconify" data-icon="uiw:github"></span>
+									</a>
+									<a
+										target="_blank"
+										href="https://api.whatsapp.com/send?phone=923150709041&amp;text=How  may I help you?"
+										className="fb-links">
+										<span class="iconify" data-icon="ic:outline-whatsapp"></span>
+									</a>
 									<a
 										target="_blank"
 										href="https://www.facebook.com/profile.php?id=100009971705175"
@@ -285,10 +297,6 @@ const Home = () => {
 									</a>
 									<a href="https://www.instagram.com/sheikhgee188/" target="_blank" className="fb-links">
 										<span class="iconify" data-icon="mdi:instagram"></span>
-									</a>
-
-									<a target="_blank" href="https://www.linkedin.com/in/ahmad-raza-02374b249/" className="fb-links">
-										<span className="iconify" data-icon="basil:linkedin-outline"></span>
 									</a>
 								</span>
 							</div>
