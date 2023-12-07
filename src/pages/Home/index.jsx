@@ -292,9 +292,7 @@ const Home = () => {
 										className="fb-links">
 										<span className="iconify" data-icon="iconoir:facebook"></span>
 									</a>
-									<a href="https://twitter.com/sheikhahmad188" target="_blank" className="fb-links">
-										<span className="iconify" data-icon="ri:twitter-line"></span>
-									</a>
+
 									<a href="https://www.instagram.com/sheikhgee188/" target="_blank" className="fb-links">
 										<span class="iconify" data-icon="mdi:instagram"></span>
 									</a>
