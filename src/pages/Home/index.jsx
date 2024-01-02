@@ -222,9 +222,9 @@ const Home = () => {
 							<div className="fs-22 fw-600 gray-text" aria-label="A Freelance Web developer">
 								A Freelance Web &nbsp;<span className="yellow-text typewriter nocaret"></span>
 							</div>
-							<button type="button" className="primary-btn mt-4">
+							<a href="#contact" className="primary-btn text-white mt-4">
 								Hire ME
-							</button>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -692,7 +692,7 @@ const Home = () => {
 								<div className="mt-3">
 									<div className="contact-head">
 										<div className="contact-icon">
-											<span className="iconify" data-icon="system-uicons:location"></span>
+											<span className="iconify" data-icon="carbon:email"></span>
 										</div>
 										<div className="text-white">Email</div>
 									</div>
@@ -702,7 +702,7 @@ const Home = () => {
 								<div className="mt-3">
 									<div className="contact-head">
 										<div className="contact-icon">
-											<span className="iconify" data-icon="system-uicons:location"></span>
+											<span className="iconify" data-icon="ph:phone"></span>
 										</div>
 										<div className="text-white">Phone</div>
 									</div>
@@ -712,7 +712,7 @@ const Home = () => {
 								<div className="mt-3">
 									<div className="contact-head">
 										<div className="contact-icon">
-											<span className="iconify" data-icon="system-uicons:location"></span>
+											<span className="iconify" data-icon="streamline:web"></span>
 										</div>
 										<div className="text-white">Website</div>
 									</div>
